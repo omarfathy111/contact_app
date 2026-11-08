@@ -1,0 +1,10 @@
+# Exclude platform files from GitHub language statistics
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+
+# Exclude generated files
+build/** linguist-generated
+.dart_tool/** linguist-generated
