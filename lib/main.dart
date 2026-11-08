@@ -1,11 +1,9 @@
 import 'package:contact_app/core/utils/routes.dart';
 import 'package:contact_app/ui/screens/home_screen.dart';
 import 'package:contact_app/ui/screens/splash_screen.dart';
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  DevicePreview.enable();
   runApp(const MyApp());
 }
 
